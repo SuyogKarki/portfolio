@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import { Home, About, Portfolio, Contact } from './container';
-import { Navbar, Background } from './components';
+import { Navbar } from './components';
 import './App.scss';
 import { PacmanLoader } from 'react-spinners';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
