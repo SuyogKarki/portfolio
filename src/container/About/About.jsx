@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './About.scss';
 import SVG3DTAGCloud from '3d-word-cloud';
-import $ from 'jquery';
 
 function About() {
   useEffect(() => {
@@ -30,8 +29,8 @@ function About() {
     ];
     var settings = {
       entries: entries,
-      width: 480,
-      height: 480,
+      width: 700,
+      height: 630,
       radius: '65%',
       radiusMin: 75,
       bgDraw: true,
@@ -42,7 +41,7 @@ function About() {
       fov: 800,
       speed: 2,
       fontFamily: 'Oswald, Arial, sans-serif',
-      fontSize: '15',
+      fontSize: '16',
       fontColor: '#24CFF4',
       fontWeight: 'normal', //bold
       fontStyle: 'normal', //italic
@@ -69,11 +68,14 @@ function About() {
           <h1>About Me</h1>
         </div>
         <div className='about-description'>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-          <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+          <p>I am a Full Stack Web Developer based in Nepal. I have a great passion for creating beautiful websites and hooking it up with some great backend logic. </p>
           <p>
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-            like Aldus PageMaker including versions of Lorem Ipsum.{' '}
+            I have about a year of experience as a web developer. I have little experience but I have a great passion for learning and imporving my skills. I have traits like problem solving,
+            independent, well organized which every good developer should have.
+          </p>
+          <p>
+            Throughout my small journey to this point. I have been bombarded with a variety of technology used for web development. I am a quick learner and I can quickly adapt to any new technology.
+            I mainly focus on creating small, to medium sized web apps that are responsive and user interactive.
           </p>
         </div>
       </div>

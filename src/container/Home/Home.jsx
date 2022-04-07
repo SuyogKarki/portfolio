@@ -1,8 +1,10 @@
 import React from 'react';
 import { Profile } from '../../constants';
 import './Home.scss';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <div className='app__header'>
       <div className='app__header-content'>
@@ -18,7 +20,9 @@ function Home() {
           </p>
         </div>
         <div className='header-button'>
-          <button type='button'>Hire Me</button>
+          <button type='button' onClick={() => navigate('/contact')}>
+            Hire Me
+          </button>
         </div>
       </div>
       <div className='app__header-image'>

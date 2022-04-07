@@ -11,7 +11,9 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className='app__navbar'>
-      <div className='logo'>Suyog</div>
+      <div className='logo'>
+        <Link to='/'>Suyog</Link>
+      </div>
       <ul className='app__navbar-links'>
         <li className='app__navbar-link'>
           <div />

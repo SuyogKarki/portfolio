@@ -1,14 +1,14 @@
 import React from 'react';
-import { Project } from '../../constants';
+import { Project1, Project2, Project3, Project4, Project5, Project6 } from '../../constants';
 import './Portfolio.scss';
 
 const data = [
-  { id: 1, name: 'Project1', imgURL: Project, sourceUrl: '', demoUrl: '' },
-  { id: 2, name: 'Project2', imgURL: Project, sourceUrl: '', demoUrl: '' },
-  { id: 3, name: 'Project3', imgURL: Project, sourceUrl: '', demoUrl: '' },
-  { id: 4, name: 'Project4', imgURL: Project, sourceUrl: '', demoUrl: '' },
-  { id: 5, name: 'Project5', imgURL: Project, sourceUrl: '', demoUrl: '' },
-  { id: 6, name: 'Project6', imgURL: Project, sourceUrl: '', demoUrl: '' },
+  { id: 1, name: 'Google Clone', imgURL: Project1, sourceUrl: 'https://github.com/SuyogKarki/googl', demoUrl: 'https://googlse.netlify.app' },
+  { id: 2, name: 'Recipe App', imgURL: Project2, sourceUrl: 'https://github.com/SuyogKarki/delico', demoUrl: 'https://delico.netlify.app' },
+  { id: 3, name: 'Profile Website', imgURL: Project3, sourceUrl: '', demoUrl: 'https://gerichti.netlify.app' },
+  { id: 4, name: 'Netflix Clone', imgURL: Project4, sourceUrl: '', demoUrl: 'https://vast-falls-39829.herokuapp.com' },
+  { id: 5, name: 'Nft trader', imgURL: Project5, sourceUrl: '', demoUrl: 'https://nfttraders.netlify.app' },
+  { id: 6, name: 'Statelast', imgURL: Project6, sourceUrl: 'https://github.com/SuyogKarki/realestate', demoUrl: 'https://realestate-livid.vercel.app' },
 ];
 
 function Portfolio() {
@@ -25,8 +25,12 @@ function Portfolio() {
               <img src={item.imgURL} alt='' />
               <div className='project_details'>
                 <h1>{item.name}</h1>
-                <a href={item.demoUrl}>See Demo</a>
-                <a href={item.sourceUrl}>Source Code</a>
+                <a href={item.demoUrl} target='_blank' rel='noreferrer'>
+                  See Demo
+                </a>
+                <a href={item.sourceUrl} target='_blank' rel='noreferrer'>
+                  Source Code
+                </a>
               </div>
             </div>
           ))}

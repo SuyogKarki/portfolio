@@ -8,6 +8,7 @@
   align-items: center;
   padding: 0 4rem;
   .app__about-content {
+    flex: 1;
     .about-title {
       display: flex;
       justify-content: center;
@@ -35,8 +36,12 @@
     }
   }
   .app__about-cloud {
+    flex: 1;
     margin-left: 20px;
     cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 

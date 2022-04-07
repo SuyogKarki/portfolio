@@ -22,7 +22,7 @@ function Contact() {
   const sendEmail = e => {
     e.preventDefault();
     if (validateEmail()) {
-      emailjs.sendForm('service_a5np3xc', 'template_3ul22ml', form.current, 'cDpCaf4uj69ZwAsWd').then(
+      emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_USERID).then(
         result => {
           console.log(result.text);
           dispatch({

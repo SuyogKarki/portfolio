@@ -10,9 +10,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: var(--color-white);
-    font: 3rem var(--font-logo);
-    line-height: 65.37px;
+    a {
+      text-decoration: none;
+      color: var(--color-white);
+      font: 3rem var(--font-logo);
+      line-height: 65.37px;
+    }
   }
   .app__navbar-links {
     list-style: none;
@@ -51,7 +54,7 @@
   display: none;
 }
 .hamburger-btn {
-  z-index: 1001;
+  z-index: 4;
   position: relative;
   display: flex;
   justify-content: center;
@@ -102,7 +105,7 @@
   width: 100vw;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 3;
   ul {
     height: 100%;
     list-style: none;

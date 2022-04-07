@@ -1,5 +1,4 @@
 {
-  "homepage": "http://SuyogKarki.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +12,10 @@
     "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",
     "node-sass": "^7.0.1",
+    "particles-bg": "^2.5.5",
+    "particles.js": "^2.0.0",
     "react": "^17.0.2",
+    "react-background-animation": "^1.0.1",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-loading": "^2.0.3",
@@ -21,6 +23,7 @@
     "react-scripts": "5.0.0",
     "react-spinners": "^0.11.0",
     "react-tagcloud": "^2.2.0",
+    "styled-components": "^5.3.3",
     "uuid": "^8.3.2",
     "validator": "^13.7.0",
     "web-vitals": "^2.1.4"
