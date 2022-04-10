@@ -5,9 +5,9 @@ import './Portfolio.scss';
 const data = [
   { id: 1, name: 'Google Clone', imgURL: Project1, sourceUrl: 'https://github.com/SuyogKarki/googl', demoUrl: 'https://googlse.netlify.app' },
   { id: 2, name: 'Recipe App', imgURL: Project2, sourceUrl: 'https://github.com/SuyogKarki/delico', demoUrl: 'https://delico.netlify.app' },
-  { id: 3, name: 'Profile Website', imgURL: Project3, sourceUrl: '', demoUrl: 'https://gerichti.netlify.app' },
-  { id: 4, name: 'Netflix Clone', imgURL: Project4, sourceUrl: '', demoUrl: 'https://vast-falls-39829.herokuapp.com' },
-  { id: 5, name: 'Nft trader', imgURL: Project5, sourceUrl: '', demoUrl: 'https://nfttraders.netlify.app' },
+  { id: 3, name: 'Profile Website', imgURL: Project3, sourceUrl: 'https://github.com/SuyogKarki/restaurant', demoUrl: 'https://gerichti.netlify.app' },
+  { id: 4, name: 'Netflix Clone', imgURL: Project4, sourceUrl: 'https://github.com/SuyogKarki/netflix', demoUrl: 'https://vast-falls-39829.herokuapp.com' },
+  { id: 5, name: 'Nft trader', imgURL: Project5, sourceUrl: 'https://github.com/SuyogKarki/nft', demoUrl: 'https://nfttraders.netlify.app' },
   { id: 6, name: 'Statelast', imgURL: Project6, sourceUrl: 'https://github.com/SuyogKarki/realestate', demoUrl: 'https://realestate-livid.vercel.app' },
 ];
 
